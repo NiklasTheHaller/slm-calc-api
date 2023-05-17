@@ -47,5 +47,18 @@ class CalculatorControllerTest {
 
     }
 
+    @Test
+    void suubtractTest(){
+        CalculatorController calculatorController = new CalculatorController();
+
+        int a = 4;
+        int b = 5;
+
+        int result = calculatorController.subtract(a, b);
+
+        assertEquals(-1, result);
+
+    }
+
 
 }
